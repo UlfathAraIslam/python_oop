@@ -5,3 +5,7 @@ class Rider:
 
     def pay(self):
         return self.deliveries * 100   # ফ্ল্যাট রেট প্লেসহোল্ডার
+
+class BicycleRider(Rider):
+    def pay(self):
+        return self.deliveries * 100   # প্রতি ডেলিভারিতে ¥১০০
